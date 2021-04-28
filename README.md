@@ -4,12 +4,18 @@
 Comparison of Date objects for JavaScript.
 See [docs](https://total-order.github.io/date/index.html).
 
-> :building_construction: Caveat emptor! This is work in progress. Code may be
-> working. Documentation may be present. Coherence may be. Maybe.
-
 > :warning: Depending on your environment, the code may require
 > `regeneratorRuntime` to be defined, for instance by importing
 > [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
+
+```js
+import {increasing} from '@total-order/date';
+increasing(new Date(0), new Date(1)) < 0; // true
+
+import {PairingHeap as Heap} from '@heap-data-structure/pairing-heap';
+const heap = new Heap(increasing);
+heap.push(new Date());
+```
 
 [![License](https://img.shields.io/github/license/total-order/date.svg)](https://raw.githubusercontent.com/total-order/date/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@total-order/date.svg)](https://www.npmjs.org/package/@total-order/date)
