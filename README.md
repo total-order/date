@@ -4,10 +4,6 @@
 Comparison of Date objects for JavaScript.
 See [docs](https://total-order.github.io/date/index.html).
 
-> :warning: Depending on your environment, the code may require
-> `regeneratorRuntime` to be defined, for instance by importing
-> [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
-
 ```js
 import {increasing} from '@total-order/date';
 increasing(new Date(0), new Date(1)) < 0; // true
