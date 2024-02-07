@@ -15,7 +15,7 @@ heap.push(new Date());
 
 [![License](https://img.shields.io/github/license/total-order/date.svg)](https://raw.githubusercontent.com/total-order/date/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@total-order/date.svg)](https://www.npmjs.org/package/@total-order/date)
-[![Tests](https://img.shields.io/github/workflow/status/total-order/date/ci:test?event=push&label=tests)](https://github.com/total-order/date/actions/workflows/ci:test.yml?query=branch:main)
+[![Tests](https://img.shields.io/github/workflow/status/total-order/date/ci?event=push&label=tests)](https://github.com/total-order/date/actions/workflows/ci.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/librariesio/github/total-order/date.svg)](https://github.com/total-order/date/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/total-order/date.svg)](https://github.com/total-order/date/issues)
 [![Downloads](https://img.shields.io/npm/dm/@total-order/date.svg)](https://www.npmjs.org/package/@total-order/date)
