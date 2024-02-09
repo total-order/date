@@ -1,4 +1,5 @@
 import test from 'ava';
+
 import {increasing, decreasing} from '#module';
 
 const repr = (x) => x.toISOString();
